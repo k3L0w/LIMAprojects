@@ -1,0 +1,42 @@
+
+.preto{
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    background-image: url("placa_preta.jpg");
+}
+
+.branco{
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    background-image: url("placa_branca.jpg");
+}
+.tabela{
+    width: 840px;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.titulo1{
+    margin-left: 400px;
+    display: inline-flex;
+    align-items: center;
+    
+}
+.margin{​​​​​​​​
+    margin-top: 50px;
+    margin-bottom: 200px;
+    margin-left: 150px;
+}​​​​​​​​
+
+
+.h1{​​​​​​​​
+    color: red;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    font-style: italic;
+    font-style: arial;
+}​​​​​​​​
