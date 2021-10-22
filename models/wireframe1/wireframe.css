@@ -1,0 +1,28 @@
+/* Atalho: Ctrl K C */
+/* Classe para centralizar a página no navegador */
+.centro{
+    width: 1000px;
+    height: auto;/*Altura automática, ou seja, aumenta com a página*/
+    margin: 0 auto;/*Margem zero na vertical e automático na horizontal*/
+    background-color: white;
+}
+
+/* Podemos acessar as Tags HTML no CSS usando o seu nome sem o . ou # */
+/* Por exemplo, para alterar a Tag <body> */
+body{
+    background-color: lightgray;
+}
+
+/* Configuração para montar o cabeçalho do wireframe */
+.cabecalho{
+    width: 1000px;
+    height: 150px;
+    border: 2px solid green;/*Estilo da borda: tamanho, tipo e cor*/
+}
+
+.menu{
+    width: 1000px;
+    height: 60px;
+    border: 2px solid orange;
+    margin: 5px 0px;/*Adiciona margem de 5px acima e abaixo, 0 nos lados*/
+}

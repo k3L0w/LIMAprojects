@@ -1,0 +1,76 @@
+/* Atalho: Ctrl K C */
+/* Classe para centralizar a página no navegador */
+.centro{
+    width: 1004px;
+    height: auto;/* Altura automática, ou seja, aumenta com a página */
+    margin: 0 auto;/* Margem zero na vertical e automático na horizontal  */
+    background-color: rgb(4, 0, 255);
+}
+
+
+/* Podemos acessar as Tags HTML no CSS usando o seu nome sem o . ou # */
+/* Por exemplo, para açterar a Tag <body> */
+.body{
+    /*background-color: rgb(245, 10, 10);*/
+    width: 1150px;
+    height: 650px;
+    background-image: url('img/joystick.png');
+    background-repeat: repeat-x;
+}
+
+/* Configuração para montar o cabeçalho do wireframe */
+.cabecalho{
+    width: 1000px;
+    height: 150px;
+    border: 2px solid green;/*Estilo da borda: tamanho, tipo e cor*/
+}
+
+.menu{
+    width: 1000px;
+    height: 60px;
+    border: 2px solid orange;
+    margin: 5px 0px;/* Adiciona margem de 5px acima e abaixo, 0 nos lados */
+
+}
+
+.lateralEsquerda{
+    width: 790pX;
+    height: 400PX;
+    float: left; /*Permitir o uso da área à frente*/
+    border: 2px solid cornflowerblue;    
+
+}
+
+.lateralDireita{
+    width: 200px;
+    height: 400px;
+    float: right;
+    border: 2px solid purple;
+    margin-left: 4px;
+    margin-bottom: 5px;
+}
+
+.rodape{
+    width: 1000px;
+    height: 100px;
+    border: 2px solid orange;
+    clear: both; /*Volta a desenhar o fundo branco*/
+}
+
+.menu a{
+    line-height: 60px; /* Espaço acima*/
+    margin-left: 40px;
+    color: white;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.cabecalho img{
+    height: 100px;
+}
+
+.lateralEsquerda img{
+    height: 140px;
+}
+
+  
